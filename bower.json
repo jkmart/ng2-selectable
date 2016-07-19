@@ -1,12 +1,12 @@
 {
-  "name": "ngSelectable",
-  "version": "1.0.5",
-  "homepage": "https://github.com/willgm/ngSelectable",
+  "name": "ng2-selectable",
+  "version": "1.0.0-0.1.0",
+  "homepage": "https://github.com/jkmart/ngSelectable",
   "authors": [
-    "William Grasel"
+    "J Kerry martin"
   ],
-  "description": "AngularJS bindings for jQuery UI Selectable",
-  "main": "./src/ngSelectable.js",
+  "description": "Angular2 bindings for jQuery UI Selectable",
+  "main": "./src/ng2-electable.js",
   "keywords": [
     "angularjs",
     "jquery",
@@ -16,7 +16,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "angular": "1.2.20",
+    "angular": "2.0.0-rc.1",
     "jquery-ui": "1.11.0"
   },
   "devDependencies": {

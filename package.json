@@ -1,35 +1,62 @@
 {
-  "name": "ngSelectable",
-  "version": "1.0.5",
-  "description": "AngularJS bindings for jQuery UI Selectable",
-  "author": "William Grasel",
+  "name": "ng2-selectable",
+  "version": "1.0.0-0.1.0",
+  "description": "Angular 2 bindings for jQuery UI Selectable",
+  "author": "",
   "homepage": "https://github.com/willgm/ngSelectable",
   "bugs": {
     "url": "https://github.com/willgm/ngSelectable/issues"
   },
   "keywords": [
-    "angularjs",
+    "angular2",
     "jquery",
     "jquery-ui",
     "selectable"
   ],
-  "main": "./src/ngSelectable.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
+    "postinstall": "npm run typings -- install",
     "pretest": "npm install && bower install",
-    "test": "karma start"
+    "test": "karma start",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/willgm/ngSelectable.git"
+    "url": "https://github.com/jkmart/ngSelectable.git"
+  },
+  "dependencies": {
+    "@angular/common": "2.0.0-rc.1",
+    "@angular/compiler": "2.0.0-rc.1",
+    "@angular/core": "2.0.0-rc.1",
+    "@angular/platform-browser": "2.0.0-rc.1"
   },
   "devDependencies": {
-    "bower": "1.7.2",
+    "bower": "^1.3.12",
+    "codelyzer": "~0.0.19",
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-tslint": "^5.0.0",
+    "gulp-typescript": "^2.13.4",
     "jasmine-core": "2.4.1",
     "karma": "0.13.19",
     "karma-chrome-launcher": "0.2.2",
-    "karma-jasmine": "0.3.6"
+    "karma-jasmine": "0.3.6",
+    "merge2": "^1.0.2",
+    "minimist": "latest",
+    "reflect-metadata": "0.1.2",
+    "rimraf": "2.5.2",
+    "run-sequence": "^1.2.2",
+    "rxjs": "5.0.0-beta.10",
+    "systemjs": "0.19.31",
+    "systemjs-builder": "^0.15.16",
+    "tslint": "^3.7.1",
+    "typescript": "^1.8.9",
+    "typings": "^1.0.4",
+    "zone.js": "^0.6.12"
   }
 }

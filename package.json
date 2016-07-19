@@ -3,9 +3,9 @@
   "version": "1.0.0-0.1.0",
   "description": "Angular 2 bindings for jQuery UI Selectable",
   "author": "",
-  "homepage": "https://github.com/willgm/ngSelectable",
+  "homepage": "https://github.com/jkmart/ngSelectable",
   "bugs": {
-    "url": "https://github.com/willgm/ngSelectable/issues"
+    "url": "https://github.com/jkmart/ngSelectable/issues"
   },
   "keywords": [
     "angular2",
